@@ -41,6 +41,7 @@
 
 a {
     text-decoration: none;
+    font-size: 20px;
 }
 
 .btn {
@@ -178,5 +179,37 @@ ul {
     ol {
         margin: 20px;
 
+    }
+}
+
+/* -----------tablet -------*/
+
+@media only screen and (min-width: 689px) and (max-width:991px) {
+    .container {
+        width: 900px;
+        padding-bottom: 30px;
+    }
+
+    .half-width {
+        width: 130%;
+
+    }
+
+    .container-2 {
+        margin-left: 10px;
+        display: grid;
+    }
+
+    .link {
+        display: inline;
+        background-color: white;
+    }
+
+    .left-section {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
+        margin: 10%;
     }
 }

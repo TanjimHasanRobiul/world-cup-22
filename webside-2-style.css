@@ -67,6 +67,10 @@ a {
     margin-right: 20px;
 }
 
+.half {
+    width: 120%;
+}
+
 .match {
     box-shadow: 2px 2px 2px 2px gainsboro;
     padding: 10px;
@@ -90,6 +94,16 @@ a {
 h2 {
     text-align: center;
     margin-top: 30px;
+}
+
+.button {
+    padding: 15px 30px;
+}
+
+.bottom {
+    margin: 30px;
+    text-align: center;
+    visibility: hidden;
 }
 
 footer {
@@ -118,6 +132,10 @@ ul {
     justify-content: space-evenly;
     color: lightseagreen;
     padding-bottom: 60px;
+}
+
+.half-tab {
+    display: none;
 }
 
 /*-------- mobile screen------ */
@@ -171,4 +189,54 @@ ul {
         margin: 20px;
 
     }
+
+    .bottom {
+        visibility: visible;
+    }
+
+    .half-tab {
+        visibility: hidden;
+    }
+}
+
+/* -----------tablet -------*/
+
+@media only screen and (min-width: 689px) and (max-width:991px) {
+    .container {
+        width: 900px;
+        padding-bottom: 30px;
+    }
+
+    .half-width {
+        width: 70%;
+
+    }
+
+    .link {
+        display: flex;
+        background-color: white;
+        justify-content: space-around;
+    }
+
+    .btn {
+        padding: 25px 50px;
+    }
+
+    .web2-section {
+        margin-top: 150px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10%;
+
+    }
+
+    .bottom {
+        visibility: visible;
+    }
+
+    footer {
+        width: 100%;
+        margin: 10%;
+    }
+
 }
