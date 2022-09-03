@@ -121,3 +121,41 @@ ul {
     color: lightseagreen;
     padding-bottom: 60px;
 }
+
+/*-------- mobile screen------ */
+
+@media only screen and (max-width:688px) {
+    .container {
+        display: grid;
+        width: 100%;
+        margin: 5%;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .half-width {
+        width: 80%;
+        word-wrap: nowrap;
+    }
+
+    .container-2 {
+        display: grid;
+    }
+
+    .link {
+        display: grid;
+        justify-content: space-evenly;
+        background-color: white;
+    }
+
+    .left-section {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-evenly;
+        margin: 10%;
+    }
+
+    footer {
+        width: auto;
+    }
+}
