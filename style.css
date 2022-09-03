@@ -91,3 +91,33 @@ a {
 .match {
     margin-top: 15px;
 }
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.goal {
+    padding-top: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+}
+
+hr {
+    width: 90%;
+    background-color: grey;
+
+}
+
+ul {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    color: lightseagreen;
+    padding-bottom: 60px;
+}
