@@ -28,10 +28,6 @@
     border-radius: 5px;
 }
 
-.container-2 {
-    display: flex;
-}
-
 .link {
     display: grid;
     background-color: black;
@@ -59,7 +55,11 @@ a {
     background-color: red;
 }
 
-.left-section {
+.container-web {
+    display: flex;
+}
+
+.web2-section {
     display: grid;
     grid-gap: 15px;
     grid-template-columns: repeat(3, 1fr);
@@ -69,13 +69,17 @@ a {
 
 .match {
     box-shadow: 2px 2px 2px 2px gainsboro;
-    padding: 30px;
+    padding: 10px;
     border-radius: 5px;
+}
+
+.blog {
+    text-align: center;
 }
 
 .flag {
     display: flex;
-    margin-left: 10px;
+    margin-left: 5px;
     padding: 5px;
 }
 
@@ -86,10 +90,6 @@ a {
 h2 {
     text-align: center;
     margin-top: 30px;
-}
-
-.blog {
-    text-align: center;
 }
 
 footer {
@@ -134,14 +134,12 @@ ul {
         width: 80%;
     }
 
-    .container-2 {
+    .web2-section {
+        margin-top: 50px;
         display: grid;
-        margin-left: 10px;
-    }
-
-    .match img {
-        width: 90%;
-        margin: 5%;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-evenly;
+        margin: 10%;
     }
 
     .link {
@@ -150,7 +148,7 @@ ul {
         background-color: white;
     }
 
-    .left-section {
+    .container-web {
         margin-top: 50px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
