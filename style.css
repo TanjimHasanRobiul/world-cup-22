@@ -10,6 +10,7 @@
     margin-left: 10%;
     border-radius: 40px;
     padding-left: 60px;
+    margin-bottom: 70px;
 }
 
 .half-width {
@@ -25,4 +26,26 @@
     padding: 15px 40px;
     background-color: crimson;
     border-radius: 5px;
+}
+
+.left-button {
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 300px;
+    background-color: black;
+    padding: 40px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.button-left {
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+
+}
+
+.others {
+    background-color: red;
 }
